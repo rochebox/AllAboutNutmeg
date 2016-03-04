@@ -1,0 +1,82 @@
+
+
+@font-face {
+    font-family: 'lemonchicken';
+    src: url('../fonts/LEMONCHI-webfont.eot');
+    src: url('../fonts/LEMONCHI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/LEMONCHI-webfont.woff') format('woff'),
+         url('../fonts/LEMONCHI-webfont.ttf') format('truetype'),
+         url('../fonts/LEMONCHI-webfont.svg#lemonchickenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+	
+body {
+
+
+	/* background-color: brown; */
+	/*background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/61/Nutmeg_Zanz41.JPG); */
+	background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+#page1{
+
+    background-color: brown;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/61/Nutmeg_Zanz41.JPG);
+}
+
+#page2{
+
+    
+}
+
+
+.h1Type {
+    margin: 0;
+
+	font-family: lemonChicken;
+
+	color: wheat;
+	background-color: brown;
+	text-align: center;
+	font-size: 4em;
+	padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+    margin-bottom: 0;
+  
+   
+}
+
+
+ul{
+
+    background-color: brown;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+}
+
+li{
+    width: 19%;
+    display: inline-block;
+    font-family: lemonChicken;
+    font-size: 1.1em;
+    color: wheat;
+    margin: 0px;
+    padding-top: 0.67em;
+    padding-bottom: 0.67em;
+}
+
+.liFirst{
+    margin-left:1%;
+}
+
+
+
+
+  

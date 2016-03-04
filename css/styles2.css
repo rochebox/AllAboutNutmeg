@@ -1,0 +1,137 @@
+
+
+@font-face {
+    font-family: 'lemonchicken';
+    src: url('../fonts/LEMONCHI-webfont.eot');
+    src: url('../fonts/LEMONCHI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/LEMONCHI-webfont.woff') format('woff'),
+         url('../fonts/LEMONCHI-webfont.ttf') format('truetype'),
+         url('../fonts/LEMONCHI-webfont.svg#lemonchickenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+
+	//color: red;
+
+	font-family: lemonchicken;
+
+    background-color: brown;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/61/Nutmeg_Zanz41.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+
+
+
+h1{
+
+	margin: 0;
+	text-align: center;
+	background-color:brown;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	margin-top: 3%;
+	color:wheat;
+	font-size: 5em;
+    border-bottom: 3px solid red;
+     text-shadow: 2px 2px #ff0000;
+
+
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+}
+
+li {
+	color: wheat;
+ margin-top:0;
+ font-size: 1em;
+ display: inline-block;
+ text-align: center;
+ width: 19%;
+ background-color: brown;
+ padding-top: .5%;
+ padding-bottom: 1%;
+ /* max-height: 50px; */
+ /* min-height: 50px; */
+
+
+}
+
+
+li:hover{
+    background-color: #b90000;
+    color: white;
+}
+.liFirst{
+    margin-left: 1.5%;
+}
+
+
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width:90%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.dropdown {
+    position: relative;
+   
+}
+
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    background-color: wheat;
+    color: #b90000;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menuHeading{
+    margin: 0;
+    padding: 0;
+}
+
+.topper{
+    /* padding-top: 1%; */
+    /*line-height: 10px; */
+    /* height: 50px; */
+    padding-top: 20px;
+}
+
+
+
+
