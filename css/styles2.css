@@ -132,6 +132,17 @@ li:hover{
     padding-top: 20px;
 }
 
+.twoColumn {
+    float: left;
+    width: 48%;
+    color: wheat;
+
+}
+
+.clearIt{
+    clear: both;
+}
+
 
 
 
